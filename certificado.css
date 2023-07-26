@@ -1,0 +1,91 @@
+@import url(pre-estilos.css);
+
+@media screen and (max-width: 720px) {
+  .certificado {
+    border-radius: 0.75rem;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 0.93rem;
+    padding: 0.938rem;
+  }
+  .certificado h1 {
+    color: var(--gris-2);
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #img {
+    border: solid var(--gris-suave);
+    width: 100%;
+    height: 23rem;
+    background: url(imagenes/diploma.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: var(--borde-radio);
+  }
+  .certificado h3 {
+    color: #000;
+    padding-top: 1rem;
+  }
+  .certificado h4 {
+    color: var(--gris-2);
+    font-family: "Montserrat";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media screen and (min-width: 1199.98px) {
+  .certificado {
+    grid-area: certificado;
+    background: var(--fondo-crema);
+    border-radius: var(--borde-radio);
+  }
+  .certificado h1 {
+    color: var(--gris-2);
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  #container {
+    display: flex;
+    width: 61.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: .5rem auto;
+  }
+  #img {
+    width: 100%;
+    height: 13rem;
+    background: url(imagenes/diploma.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: var(--borde-radio);
+    align-self: stretch;
+  }
+  .envolver {
+    width: 28%;
+    border: solid var(--gris-suave);
+    padding: 0.5rem 1rem;
+  }
+  .certificado h3 {
+    color: #000;
+  }
+  .certificado h4 {
+    color: var(--gris-2);
+    font-family: "Montserrat";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

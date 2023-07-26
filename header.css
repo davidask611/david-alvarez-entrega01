@@ -1,0 +1,174 @@
+@import url(pre-estilos.css);
+
+@media screen and (max-width: 720px) {
+  body {
+    background: var(--gris-rosado);
+    width: 90%;
+    margin: 0.625rem auto;
+  }
+  header {
+    border-radius: var(--borde-radio);
+    background: #fff;
+    width: 100%;
+    padding: 0.625rem;
+    margin-bottom: 0.938rem;
+  }
+  #foto-perfil {
+    background: url(imagenes/perfil.png);
+    width: 80%;
+    height: 33.75rem;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: var(--borde-radio);
+  }
+  nav {
+    padding: 0.625rem;
+    width: 90%;
+    margin: auto;
+  }
+  .datos-personales {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .datos {
+    max-width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .datos h1 {
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    word-wrap: break-word;
+  }
+  .datos p {
+    color: var(--gris-1);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .contacto {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .telefonos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  nav p {
+    align-self: stretch;
+    color: var(--gris-1);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  header {
+    grid-area: header;
+    background: var(--fondo-crema);
+    margin: 0 0.625rem 0.625rem 0;
+    border-radius: var(--borde-radio);
+  }
+  #foto-perfil {
+    background: url(imagenes/perfil.png);
+    width: 21.875rem;
+    height: 21.25rem;
+    flex-shrink: 0;
+    margin: 0.625rem auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: var(--borde-radio);
+  }
+  nav {
+    padding: 0.625rem;
+    width: 90%;
+    margin: auto;
+  }
+  .datos-personales {
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .datos {
+    max-width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .datos h1 {
+    color: #000;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    word-wrap: break-word;
+  }
+  .datos p {
+    color: var(--gris-1);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .contacto {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  .telefonos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  nav p {
+    align-self: stretch;
+    color: var(--gris-1);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 1.5rem;
+  }
+}

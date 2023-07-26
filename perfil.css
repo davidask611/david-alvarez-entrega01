@@ -1,0 +1,179 @@
+@import url(pre-estilos.css);
+
+@media screen and (max-width: 720px) {
+  body {
+    background: var(--gris-rosado);
+    width: 90%;
+    margin: 0.625rem auto;
+  }
+  main {
+    border-radius: 0.75rem;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 0.938rem;
+    padding: 0.938rem;
+  }
+  h1 {
+    color: var(--gris-2);
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.25rem;
+  }
+  .seccion-contenido {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+  }
+  .seccion-contenido h2 {
+    width: 40%;
+    color: var(--gris-1);
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .seccion-contenido > section {
+    width: 60%;
+    background: var(--gris-3);
+    height: 1.25rem;
+  }
+  .interno-100 {
+    width: 100%;
+    margin-left: auto;
+    height: 0.938rem;
+    background: var(--gris-1);
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+    position: relative;
+  }
+  .externo-90 {
+    width: 90%;
+    height: 100%;
+    background: var(--blue);
+    position: absolute;
+  }
+  .externo-70 {
+    width: 70%;
+    height: 100%;
+    background: var(--blue);
+    position: absolute;
+  }
+}
+
+/* nivel estudios */
+
+@media screen and (min-width: 1199.98px) {
+  main {
+    grid-area: estudios;
+    border-radius: 0.75rem;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 0.938rem;
+    padding: 0.938rem;
+  }
+  .nivel-estudio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    height: 10rem;
+  }
+  .nivel-estudio h1 {
+    color: var(--gris-2);
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 1.25rem;
+  }
+  .niveles {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  .html-css {
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1 0 0;
+    height: auto;
+  }
+  .js-react {
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1 0 0;
+    height: auto;
+  }
+  .html-css .seccion-contenido {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+  }
+  .seccion-contenido h2 {
+    color: var(--gris-1);
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .js-react .seccion-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    height: auto;
+  }
+  #nivel-html {
+    width: 50%;
+  }
+  #nivel-css {
+    width: 50%;
+  }
+  #nivel-js {
+    width: 50%;
+  }
+  #nivel-react {
+    width: 50%;
+  }
+  .interno-100 {
+    width: 100%;
+    margin-left: auto;
+    height: 0.938rem;
+    background: var(--gris-1);
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+  }
+  .externo-90 {
+    width: 90%;
+    height: 100%;
+    background: var(--blue);
+    position: absolute;
+  }
+  .externo-70 {
+    width: 70%;
+    height: 100%;
+    background: var(--blue);
+    position: absolute;
+  }
+}

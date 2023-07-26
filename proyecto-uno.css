@@ -1,0 +1,136 @@
+@import url(pre-estilos.css);
+@media screen and (max-width: 720px) {
+  body {
+    background: var(--gris-rosado);
+    width: 90%;
+    margin: 0.625rem auto;
+  }
+  .proyecto-uno {
+    border-radius: 0.75rem;
+    background: #fff;
+    width: 100%;
+    margin-bottom: 0.938rem;
+    padding: 0.938rem;
+  }
+  #ocultar {
+    display: none;
+  }
+  .proyecto-foto {
+    width: 90%;
+    margin: auto;
+    height: 25rem;
+    background: url(imagenes/proyecto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  .proyecto-uno p {
+    color: var(--gris-2);
+    align-self: stretch;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 0.938rem;
+  }
+  .proyecto-uno h1 {
+    color: var(--gris-2);
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0.938rem;
+  }
+  .proyecto-uno .botones {
+    display: flex;
+    width: 100%;
+    height: 3.125rem;
+    border-radius: var(--borde-radio);
+    justify-content: flex-start;
+    margin: 0.938rem;
+  }
+  .proyecto-uno .botones:hover {
+    cursor: pointer;
+  }
+  .proyecto-uno input:nth-child(2) {
+    margin-left: 0.938rem;
+    border: solid var(--blue);
+    color: var(--blue);
+    background: var(--color-crema);
+  }
+}
+
+/* trabajo */
+
+@media screen and (min-width: 1199.98px) {
+  .secciones {
+    grid-area: secciones;
+    width: 100%;
+    margin: 0.5rem 0;
+    border-radius: var(--borde-radio);
+    overflow-y: scroll;
+  }
+  .proyecto-uno {
+    background: var(--fondo-crema);
+    width: 100%;
+    height: calc(100% / 3);
+    display: flex;
+    border-radius: var(--borde-radio);
+    margin-bottom: 2rem;
+  }
+  .proyecto-foto {
+    width: 50%;
+    background: url(imagenes/proyecto.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0.5rem 1rem 1rem 0.5rem;
+    border: var(--borde-radio);
+    border-radius: 1rem;
+  }
+  .segundo-elemento {
+    width: 50%;
+    height: 60%;
+    margin: 0.5rem 1rem 1rem 0.5rem;
+  }
+  .proyecto-uno p {
+    color: var(--gris-2);
+    align-self: stretch;
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 0.938rem;
+  }
+  .proyecto-uno h1 {
+    color: #000000;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0.938rem;
+  }
+  .proyecto-uno .botones {
+    display: flex;
+    width: 100%;
+    height: 3.125rem;
+    border-radius: var(--borde-radio);
+    justify-content: flex-start;
+  }
+  .botones input {
+    width: 30%;
+  }
+  .proyecto-uno .botones:hover {
+    cursor: pointer;
+  }
+  .proyecto-uno input:nth-child(2) {
+    margin-left: 0.938rem;
+    border: solid var(--blue);
+    color: var(--blue);
+    background: var(--color-crema);
+  }
+}

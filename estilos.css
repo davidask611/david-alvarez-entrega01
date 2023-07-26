@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url(pre-estilos.css);
+@import url(header.css);
+@import url(perfil.css);
+@import url(proyectos.css);
+@import url(proyecto-uno.css);
+@import url(experiencia.css);
+@import url(certificado.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 1199.98px) {
+  body {
+    background: var(--gris-rosado);
+    width: calc(100% - 32px);
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+      "header estudios estudios"
+      "header proyectos proyectos"
+      "header secciones secciones"
+      "experiencia secciones secciones"
+      "experiencia secciones secciones"
+      "certificado certificado certificado";
+  }
+}

@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --gris-rosado: #f3ebeb;
+  --borde-radio: 12px 0.75rem;
+  --gris-1: #828282;
+  --gris-2: #4f4f4f;
+  --gris-suave: #c4c4c4;
+  --blue: #2f80ed;
+  --fondo-crema: #fff;
+}
