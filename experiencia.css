@@ -114,7 +114,6 @@
   .container {
     border: solid var(--gris-suave);
     border-radius: var(--borde-radio);
-/*     max */
     max-width:90%;
     margin: 1rem auto;
   }
@@ -127,7 +126,6 @@
   .primera-div {
     width: 4.5rem;
     margin: 0.313rem;
-/*     max */
     width:40%;
   }
   .primera-div img {
