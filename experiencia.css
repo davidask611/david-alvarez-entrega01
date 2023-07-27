@@ -113,8 +113,10 @@
   }
   .container {
     border: solid var(--gris-suave);
-    margin: 1rem;
+/*     margin: 1rem; */
     border-radius: var(--borde-radio);
+    width:90%;
+    margin: 1rem auto;
   }
   .primera-parte {
     display: flex;
